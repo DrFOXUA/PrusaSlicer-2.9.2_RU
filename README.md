@@ -10,3 +10,8 @@
 - удалены ненужные стоки
 
 *Если вы нашли ошибки в русском переводе пишите на (doctor1ru@gmail.com).
+
+В этой теме можно сообщить о найденных не переведенных строках.
+
+It is impossible to translate these lines. (Невозможно перевести эти строки)
+https://github.com/prusa3d/PrusaSlicer/issues/14749
