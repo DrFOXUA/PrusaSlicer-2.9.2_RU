@@ -1,6 +1,8 @@
 Наиболее полная русская локализация популярной программы.
 
-Основана на Авторском переводе Alexander Golikov (alex@ws54.tk), Andylg (andylg@yandex.ru)(https://github.com/AndylgTom)
+Основана на Авторском переводе Alexander Golikov (alex@ws54.tk), 
+
+Andylg (andylg@yandex.ru)(https://github.com/AndylgTom)
 
 и Значительной поддержкой перевода SorkinDmitry (https://www.youtube.com/@SorkinDmitry); (https://k3d.tech/projects/ps_translation/). 
 
