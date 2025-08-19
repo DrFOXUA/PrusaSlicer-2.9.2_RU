@@ -17,3 +17,6 @@ Andylg (andylg@yandex.ru)(https://github.com/AndylgTom)
 
 It is impossible to translate these lines. (Невозможно перевести эти строки)
 https://github.com/prusa3d/PrusaSlicer/issues/14749
+
+Обсуждение перевода:
+https://github.com/DrFOXUA/PrusaSlicer-2.9.2---Russian-Lang/discussions/1
