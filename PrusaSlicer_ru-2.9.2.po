@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PrusaSlicer 2.9.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-11 15:26+0300\n"
-"PO-Revision-Date: 2025-08-24 16:43+0300\n"
+"PO-Revision-Date: 2025-08-25 16:46+0300\n"
 "Last-Translator: DrFOX <doctor1ru@gmail.com>\n"
 "Language-Team: FoxSoft <doctor1ru@gmail.com>\n"
 "Language: ru\n"
@@ -24,6 +24,16 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Bookmarks: 3802,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#. DrFOX: В исходнике обозначено для перевода, в программе не переведено
+#: KBShortcutsDialog.cpp:157 KBShortcutsDialog.cpp:158
+msgid "Any arrow"
+msgstr "Любая стрелка"
+
+#. DrFOX: В исходнике обозначено для перевода, в программе не переведено
+#: FileReader.cpp:71 FileReader.cpp:106
+msgid "Loading of a model file failed."
+msgstr "Загрузка файла модели не удалась."
 
 #. DrFOX: В исходнике не обозначено для перевода, в программе не переведено
 #: OptionsGroup.cpp:268
@@ -244,17 +254,17 @@ msgstr[2] "Повторить %1$d действий"
 #: GUI_Factories.cpp:514
 msgid "The following model was repaired successfully"
 msgid_plural "The following models were repaired successfully"
-msgstr[0] "Следующая модель успешно починена"
-msgstr[1] "Следующие модели успешно починены"
-msgstr[2] "Следующие модели успешно починены"
+msgstr[0] "Следующая модель успешно исправлена"
+msgstr[1] "Следующие модели успешно исправлены"
+msgstr[2] "Следующие модели успешно исправлены"
 
 #. DrFOX: PLURAL 9
 #: GUI_Factories.cpp:520
 msgid "Folowing model repair failed"
 msgid_plural "Folowing models repair failed"
-msgstr[0] "Не удалось починить модель"
-msgstr[1] "Не удалось починить модели"
-msgstr[2] "Не удалось починить модели"
+msgstr[0] "Не удалось исправить модель"
+msgstr[1] "Не удалось исправить модели"
+msgstr[2] "Не удалось исправить модели"
 
 #. DrFOX: PLURAL 10
 #: GUI_ObjectList.cpp:474
@@ -268,9 +278,9 @@ msgstr[2] "Исправлено %1$d ошибок"
 #: GUI_ObjectList.cpp:480
 msgid "%1$d degenerate facet"
 msgid_plural "%1$d degenerate facets"
-msgstr[0] "%1$d вырожденная грань"
-msgstr[1] "%1$d вырожденные грани"
-msgstr[2] "%1$d вырожденных граней"
+msgstr[0] "%1$d испорченная грань"
+msgstr[1] "%1$d испорченные грани"
+msgstr[2] "%1$d испорченных граней"
 
 #. DrFOX: PLURAL 12
 #: GUI_ObjectList.cpp:482
@@ -472,9 +482,9 @@ msgstr[2] ""
 #: Tab.cpp:4405
 msgid "The physical printer below is based on the preset, you are going to rename."
 msgid_plural "The physical printers below are based on the preset, you are going to rename."
-msgstr[0] "Физический принтер, расположенный ниже, основан на профиле, который вы собираетесь переименовать."
-msgstr[1] "Физические принтеры, расположенные ниже, основаны на профиле, который вы собираетесь переименовать."
-msgstr[2] "Физические принтеры, расположенные ниже, основаны на профиле, который вы собираетесь переименовать."
+msgstr[0] "Приведенный ниже физический принтер основан на профиле, который вы собираетесь переименовать."
+msgstr[1] "Приведенные ниже физические принтеры основаны на профиле, который вы собираетесь переименовать."
+msgstr[2] "Приведенные ниже физические принтеры основаны на профиле, который вы собираетесь переименовать."
 
 #. DrFOX: PLURAL 31
 #: Tab.cpp:4410
@@ -488,7 +498,7 @@ msgstr[2] "Обратите внимание, что выбранный проф
 #: Tab.cpp:4515
 msgid "The physical printer below is based on the preset, you are going to delete."
 msgid_plural "The physical printers below are based on the preset, you are going to delete."
-msgstr[0] "Физический принтер, расположенный ниже, основан на профиле, который вы собираетесь удалить."
+msgstr[0] "Приведенный ниже физический принтер основан на профиле, который вы собираетесь удалить."
 msgstr[1] "Физические принтеры расположенные ниже, основаны на профиле, который вы собираетесь удалить."
 msgstr[2] "Физические принтеры расположенные ниже, основаны на профиле, который вы собираетесь удалить."
 
@@ -781,7 +791,6 @@ msgstr "Случайно"
 msgid "Geometry handling"
 msgstr "Обработка геометрии"
 
-# DrFOX: в программе не переведено
 #: ArrangeSettingsDialogImgui.cpp:108 PrintConfig.cpp:4244 PrintConfig.cpp:4743 SLAImportDialog.hpp:123 Tab.cpp:5569
 msgid "Fast"
 msgstr "Быстро"
@@ -2663,11 +2672,6 @@ msgstr "Открыть"
 msgid "Unknown file format. Input file must have .stl, .obj, .step/.stp, .svg, .amf(.xml) or extension .3mf(.zip)."
 msgstr "Неизвестный формат файла. Входной файл должен иметь формат .stl, .obj, .step/.stp, .svg, .amf(.xml) или расширение .3mf(.zip)."
 
-#. DrFOX: В исходнике обозначено для перевода, в программе не переведено
-#: FileReader.cpp:71 FileReader.cpp:106
-msgid "Loading of a model file failed."
-msgstr "Загрузка файла модели не удалась."
-
 #: FileReader.cpp:74 FileReader.cpp:109
 msgid "The supplied file couldn't be read because it's empty"
 msgstr "Поставленный файл не может быть прочитан, потому что он пуст"
@@ -2810,19 +2814,19 @@ msgstr "Экспорт исходной модели"
 
 #: FixModelByWin10.cpp:249
 msgid "Repairing model by Windows repair algorithm"
-msgstr "Ремонт модели с помощью алгоритмов Windows"
+msgstr "Исправление модели с помощью алгоритмов Windows"
 
 #: FixModelByWin10.cpp:258 FixModelByWin10.cpp:393
 msgid "Loading repaired model"
-msgstr "Загрузка отремонтированной модели"
+msgstr "Загрузка исправленной модели"
 
 #: FixModelByWin10.cpp:418
 msgid "Model repair finished"
-msgstr "Ремонт модели закончен"
+msgstr "Исправление модели завершено"
 
 #: FixModelByWin10.cpp:424
 msgid "Model repair canceled"
-msgstr "Ремонт модели отменён"
+msgstr "Исправление модели отменёно"
 
 #: FlashAir.cpp:65
 msgid "Upload not enabled on FlashAir card."
@@ -2925,7 +2929,7 @@ msgid ""
 "model or change its orientation on the bed."
 msgstr ""
 "Убедитесь, что объект пригоден для печати. Обычно это происходит из-за ничтожно малой экструзии или из-за повреждённой модели. \n"
-"Попробуйте отремонтировать модель или изменить её ориентацию на столе."
+"Попробуйте исправить модель или изменить её ориентацию на столе."
 
 #: GCode.cpp:527 PrintConfig.cpp:3062 PrintConfig.cpp:3072 Tab.cpp:2340 Tab.cpp:2850
 msgid "Start G-code"
@@ -3831,7 +3835,7 @@ msgstr "Перемещение секущей плоскости"
 
 #: GLGizmoCut.cpp:532
 msgid "Mode"
-msgstr "Режим сложности просмотра интерфейса"
+msgstr "Режим"
 
 #: GLGizmoCut.cpp:535
 msgid "Change cut mode"
@@ -4012,19 +4016,19 @@ msgstr "Ошибки замечены после совершения разре
 
 #: GLGizmoCut.cpp:3339
 msgid "Repairing object %1%"
-msgstr "Ремонт модели %1%"
+msgstr "Исправление модели %1%"
 
 #: GLGizmoCut.cpp:3342
 msgid "Repairing objects:"
-msgstr "Ремонт моделей:"
+msgstr "Исправление моделей:"
 
 #: GLGizmoCut.cpp:3361 GUI_ObjectList.cpp:4687
 msgid "Fixing by Windows repair algorithm"
-msgstr "Ремонт с помощью алгоритмов Windows"
+msgstr "Исправить с помощью алгоритмов Windows"
 
 #: GLGizmoCut.cpp:3376
 msgid "Repair operation finished"
-msgstr "Ремонт завершен"
+msgstr "Исправление завершено"
 
 #: GLGizmoCut.cpp:3407
 msgid "Cut by Plane"
@@ -6285,7 +6289,7 @@ msgstr "Быстрое Добавление Настроек (%s)"
 
 #: GUI_Factories.cpp:525
 msgid "Repairing was canceled"
-msgstr "Ремонт был отменён"
+msgstr "Исправление было отменёно"
 
 #: GUI_Factories.cpp:532
 msgid "Remove the selected object"
@@ -6353,7 +6357,7 @@ msgstr "Переименовать"
 
 #: GUI_Factories.cpp:876 GUI_ObjectList.cpp:4684
 msgid "Fix by Windows repair algorithm"
-msgstr "Ремонт с помощью алгоритмов Windows"
+msgstr "Исправление с помощью алгоритмов Windows"
 
 #: GUI_Factories.cpp:895
 msgid "Export as STL/OBJ"
@@ -6562,7 +6566,7 @@ msgstr "Осталось ошибок"
 
 #: GUI_ObjectList.cpp:501
 msgid "Right button click the icon to fix STL by Windows repair algorithm"
-msgstr "Щёлкните кнопкой мыши на значок, чтобы починить STL с помощью алгоритмов Windows"
+msgstr "Щёлкните кнопкой мыши на значок, чтобы исправить STL с помощью алгоритмов Windows"
 
 #: GUI_ObjectList.cpp:547
 msgid "Right button click the icon to change the object settings"
@@ -6919,11 +6923,11 @@ msgstr "Переименование"
 
 #: GUI_ObjectList.cpp:4654
 msgid "Repairing model"
-msgstr "Ремонт модели"
+msgstr "Исправление модели"
 
 #: GUI_ObjectList.cpp:4664
 msgid "Custom supports, seams, fuzzy skin and multimaterial painting were removed after repairing the mesh."
-msgstr "После ремонта модели были удалены пользовательские поддержки, швы, текстурные оболочки и многоцветная окраска."
+msgstr "После исправления модели были удалены пользовательские поддержки, швы, текстурные оболочки и многоцветная окраска."
 
 #: GUI_ObjectList.cpp:4831
 msgid "Change Extruders"
@@ -7372,10 +7376,6 @@ msgstr "Стрелка Вправо"
 #: KBShortcutsDialog.cpp:156
 msgid "Move selection 10 mm in positive X direction"
 msgstr "Перемещение выбранного на 10 мм по оси X+"
-
-#: KBShortcutsDialog.cpp:157 KBShortcutsDialog.cpp:158
-msgid "Any arrow"
-msgstr "Любая стрелка"
 
 #: KBShortcutsDialog.cpp:157
 msgid "Movement step set to 1 mm"
@@ -8109,11 +8109,11 @@ msgstr "Начать новый процесс нарезки"
 
 #: MainFrame.cpp:1581
 msgid "&Repair STL file"
-msgstr "Починить STL файл"
+msgstr "Исправить STL файл"
 
 #: MainFrame.cpp:1581
 msgid "Automatically repair an STL file"
-msgstr "Автоматическая починка STL файла"
+msgstr "Автоматическое исправление STL файла"
 
 #: MainFrame.cpp:1585
 msgid "&G-code Preview"
@@ -8353,7 +8353,7 @@ msgstr "Вкладка 'Настройки Материала'"
 
 #: MainFrame.cpp:1903
 msgid "Select the STL file to repair:"
-msgstr "Выбрать STL файл для ремонта:"
+msgstr "Выбрать STL файл для исправления:"
 
 #: MainFrame.cpp:1913
 msgid "Save OBJ file (less prone to coordinate errors than STL) as:"
@@ -8361,11 +8361,11 @@ msgstr "Сохранить в OBJ как (меньше подвержен оши
 
 #: MainFrame.cpp:1924
 msgid "Your file was repaired."
-msgstr "Ваш файл был починен."
+msgstr "Ваш файл был исправлен."
 
 #: MainFrame.cpp:1924
 msgid "Repair"
-msgstr "Ремонт"
+msgstr "Исправить"
 
 #: MainFrame.cpp:1938
 msgid "Save configuration as:"
@@ -9526,7 +9526,7 @@ msgstr "Экспортировать столы"
 
 #: Plater.cpp:6081
 msgid "Unable to perform boolean operation on model meshes. Only positive parts will be exported."
-msgstr "Невозможно выполнить булевы операции над сетками модели. Будут экспортированы только положительные части."
+msgstr "Невозможно выполнить булевы(boolean) операции над сетками модели. Будут экспортированы только положительные части."
 
 #: Plater.cpp:6289
 msgid ""
@@ -11109,7 +11109,8 @@ msgstr "Мост"
 #: PrintConfig.cpp:672
 msgid "This is the acceleration your printer will use for bridges. Set zero to disable acceleration control for bridges."
 msgstr ""
-"Ускорение печатающей головки при печати мостов. Чем больше, тем за меньшее время будет набираться и сбрасываться скорость.\n"
+"Ускорение, которое принтер будет использовать для печати мостов. \n"
+"Чем больше, тем за меньшее время будет набираться и сбрасываться скорость.\n"
 "\n"
 "Теоретически, если сильно занизить ускорения мостов, то это может привести к тому, чтобы они будут лучше цепляться за деталь в начале "
 "моста. \n"
@@ -11447,7 +11448,8 @@ msgid ""
 "This is the acceleration your printer will be reset to after the role-specific acceleration values are used (perimeter/infill). Set "
 "zero to prevent resetting acceleration at all."
 msgstr ""
-"Это ускорение, которое будет установлено ПОСЛЕ завершения печати элемента, для которого ускорения были переопределены.\n"
+"Ускорение, которое принтер будет использовать ПОСЛЕ завершения печати элемента, для которого ускорения были переопределены.\n"
+"Установите ноль, чтобы вообще не сбрасывать ускорение.\n"
 "\n"
 "В общем случае тут стоить установить ускорение для печати внешнего периметра. \n"
 "Это гарантирует, что даже если по какой-то причине возникнут движения, для которых не указаны ускорения, \n"
@@ -11603,7 +11605,7 @@ msgstr "Хорды Архимеда"
 
 #: PrintConfig.cpp:1055 PrintConfig.cpp:1573
 msgid "Octagram Spiral"
-msgstr "Спиральная октаграмма"
+msgstr "Спиральная Октаграмма"
 
 #: PrintConfig.cpp:1063
 msgid "Bottom fill pattern"
@@ -11652,6 +11654,7 @@ msgid ""
 "it will be calculated on the perimeters speed setting above. Set to zero for auto."
 msgstr ""
 "Скорость при печати внешнего периметра. \n"
+"Установите 0 для автоопределения.\n"
 "\n"
 "Часто возникают ситуации, когда оптимальной по прочности получаемых деталей является одна скорость, а визуально детали лучше выглядят "
 "на другой. \n"
@@ -12294,7 +12297,8 @@ msgstr "Зиг-Заг"
 #: PrintConfig.cpp:1583
 msgid "This is the acceleration your printer will use for first layer. Set zero to disable acceleration control for first layer."
 msgstr ""
-"Ускорение при печати первого слоя детали. Чем больше, тем за меньшее время будет набираться и сбрасываться скорость.\n"
+"Ускорение, которое принтер будет использовать для печати первого слоя. \n"
+"Чем больше, тем за меньшее время будет набираться и сбрасываться скорость.\n"
 "\n"
 "В общем случае стоит поставить 0, чтобы использовать значение по умолчанию. \n"
 "Но при печати очень больших деталей, выкладка первого слоя на рекомендуемой очень низкой скорости в 20-30 мм/с может занять слишком "
@@ -12788,6 +12792,7 @@ msgstr ""
 msgid "Speed for printing the internal fill. Set to zero for auto."
 msgstr ""
 "Скорость при печати внутреннего заполнения.\n"
+"Установите 0 для автоопределения.\n"
 "\n"
 "Обычно используется для того, чтобы периметры печатать на оптимальных по критериям внешнего вида и прочности параметрах, а заполнение "
 "печатать быстрее ради экономии времени. \n"
@@ -13221,6 +13226,7 @@ msgstr ""
 #: PrintConfig.cpp:2296
 msgid "This experimental setting is used to set the maximum volumetric speed your extruder supports."
 msgstr ""
+"Это экспериментальный параметр.\n"
 "Если установить какие-либо скорости движения при печати равными 0, то PrusaSlicer установит эти скорости такими, \n"
 "чтобы не было значимых перепадов объёмного расхода, но при этом чтобы объёмный расход на них не превышал \n"
 "значение этого параметра (объёмный расход = ширина линии * высота слоя * скорость печати).\n"
@@ -13239,7 +13245,7 @@ msgid ""
 "value of 1.8 mm³/s² ensures, that a change from the extrusion rate of 1.8 mm³/s (0.45 mm extrusion width, 0.2 mm extrusion height, "
 "feedrate 20 mm/s) to 5.4 mm³/s (feedrate 60 mm/s) will take at least 2 seconds."
 msgstr ""
-"Этот экспериментальный параметр.\n"
+"Это экспериментальный параметр.\n"
 "Используется для ограничения скорости изменения экструзии при переходе от более низкой скорости к более высокой. \n"
 "Значение 1.8 мм³/с² гарантирует, что изменение скорости экструзии с 1.8 мм³/с (ширина экструзии 0.45 мм, \n"
 "высота экструзии 0.2 мм, скорость подачи 20 мм/с) до 5.4 мм³/с (скорость подачи 60 мм/с) займёт не менее 2-х секунд."
@@ -13258,7 +13264,7 @@ msgid ""
 "value of 1.8 mm³/s² ensures, that a change from the extrusion rate of 5.4 mm³/s (0.45 mm extrusion width, 0.2 mm extrusion height, "
 "feedrate 60 mm/s) to 1.8 mm³/s (feedrate 20 mm/s) will take at least 2 seconds."
 msgstr ""
-"Этот экспериментальный параметр.\n"
+"Это экспериментальный параметр.\n"
 "Используется для ограничения скорости изменения экструзии при переходе от более высокой скорости к более низкой. \n"
 "Значение 5.4 мм³/с² гарантирует, что изменение скорости экструзии с 1.8 мм³/с (ширина экструзии 0.45 мм, \n"
 "высота экструзии 0.2 мм, скорость подачи 60 мм/с) до 1.8 мм³/с (скорость подачи 20 мм/с) займёт не менее 2-х секунд."
@@ -13431,7 +13437,7 @@ msgstr "Периметры"
 #: PrintConfig.cpp:2458
 msgid "This is the acceleration your printer will use for perimeters. Set zero to disable acceleration control for perimeters."
 msgstr ""
-"Ускорение, которое принтер будет использовать для печати внутренних периметров. \n"
+"Ускорение, которое принтер будет использовать для печати периметров. \n"
 "Чем больше, тем за меньшее время будет набираться и сбрасываться скорость.\n"
 "\n"
 "Если не используется Input Shaping, то ускорения внешних периметров ставят такими, чтобы после прохождения поворотов не было эхо. \n"
@@ -14136,7 +14142,8 @@ msgstr ""
 "При этом печать разных элементов модели с разными скоростями может привести к дефектам в виде горизонтальных полос в местах изменения "
 "скорости.\n"
 "\n"
-"Можно установить в процентах от скорости движения печатающей головы при печати внутренних периметров."
+"Можно установить в процентах от скорости движения печатающей головы при печати внутренних периметров.\n"
+"Установите 0 для автоопределения."
 
 #: PrintConfig.cpp:2957
 msgid "Solid infill threshold area"
@@ -14201,6 +14208,7 @@ msgid ""
 msgstr ""
 "Скорость при печати крышек, дна, а также сплошного заполнения, настроенного через параметр 'Сплошное заполнение каждые'. \n"
 "Не влияет на сплошное заполнение, настроенное через 100% плотность заполнения\n"
+"Установите 0 для автоопределения.\n"
 "\n"
 "Обычно используется для того, чтобы не превышать желаемый объёмный расход при печати крышек и доньев с сильно увеличенными шириной "
 "линий и высотой слоя.\n"
@@ -14984,7 +14992,8 @@ msgstr ""
 "\n"
 "Обычно используется вкупе с художественными шаблонами заполнения верхнего слоя крышки для создания какого-либо визуального эффекта "
 "без значимого вреда прочности детали.\n"
-"Можно указать в процентах относительно скорости движения печатающей головки при печати заполнения."
+"Можно указать в процентах относительно скорости движения печатающей головки при печати заполнения.\n"
+"Установите 0 для автоопределения."
 
 #: PrintConfig.cpp:3606
 msgid "Number of solid layers to generate on top surfaces."
@@ -19624,7 +19633,7 @@ msgid ""
 "Did you know that you can right-click the<a>undo/redo arrows</a>to see the history of changes and to undo or redo several actions at "
 "once?"
 msgstr ""
-"История отмены/повторов\n"
+"История Отмены/Повторов\n"
 "Знаете ли вы, что щелкнув правой кнопкой мыши на<a>стрелки отмены/повтора</a>, можно просмотреть историю изменений и отменить или "
 "повторить несколько действий?"
 
